@@ -1,0 +1,40 @@
+{
+    "name": "dazzle-php/cache-redis",
+    "description": "Dazzle Asynchronous Redis Cache.",
+    "keywords": [
+        "dazzle", "dazzle-php", "async", "cache", "storage", "redis"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/dazzle-php/cache-redis/issues",
+        "source": "https://github.com/dazzle-php/cache-redis"
+    },
+    "authors": [
+        {
+            "name":     "Kamil Jamroz",
+            "homepage": "https://github.com/khelle"
+        },
+        {
+            "name":     "The contributors",
+            "homepage": "http://github.com/dazzle-php/cache-redis/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.7",
+        "dazzle-php/cache": "0.5.*",
+        "dazzle-php/redis": "0.5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=4.8.0 <5.4.0"
+    },
+    "autoload": {
+        "psr-4": {}
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.5-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
